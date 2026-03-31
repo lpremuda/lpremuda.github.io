@@ -74,7 +74,7 @@ export default function Hero() {
           </a>
           .
         </motion.p>
-        <motion.div className="flex gap-4 flex-wrap sm:flex-col" variants={item}>
+        <motion.div className="flex gap-4 flex-wrap sm:flex-col sm:items-start" variants={item}>
           <a
             href="#projects"
             className="btn btn-primary btn-large"
