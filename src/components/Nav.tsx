@@ -10,7 +10,7 @@ const NAV_LINKS = [
   { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Tech Stack', href: '#techstack' },
+  { label: 'How It Was Built', href: '#techstack' },
 ];
 
 const SECTION_IDS = ['about', 'experience', 'skills', 'projects', 'techstack'];
