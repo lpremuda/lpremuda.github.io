@@ -6,9 +6,6 @@ import {
   Github,
   Globe,
   FileCode2,
-  GitBranch,
-  Package,
-  Cpu,
   Boxes,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';

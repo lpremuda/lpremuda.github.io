@@ -4,7 +4,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import TechStack from './components/TechStack';
+import HowThisWebsiteWasDesigned from './components/HowThisWebsiteWasDesigned';
 import Footer from './components/Footer';
 import { useTheme } from './hooks/useTheme';
 
@@ -20,7 +20,7 @@ export default function App() {
         <Experience />
         <Skills />
         <Projects />
-        <TechStack />
+        <HowThisWebsiteWasDesigned />
       </main>
       <Footer />
     </>

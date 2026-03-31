@@ -10,10 +10,10 @@ const NAV_LINKS = [
   { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
-  { label: 'How It Was Built', href: '#techstack' },
+  { label: 'How This Website Was Designed', href: '#howthiswebsitewasdesigned' },
 ];
 
-const SECTION_IDS = ['about', 'experience', 'skills', 'projects', 'techstack'];
+const SECTION_IDS = ['about', 'experience', 'skills', 'projects', 'howthiswebsitewasdesigned'];
 
 interface NavProps {
   theme: 'dark' | 'light';

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { GitBranch, Layers, HelpCircle, ArrowRight } from 'lucide-react';
-import { stackItems, pipelineSteps, ciCards, designDecisions } from '../data/techstack';
+import { stackItems, pipelineSteps, ciCards, designDecisions } from '../data/howthiswebsitewasdesigned';
 
 // ─── Inline SVG: Architecture Overview Diagram ───────────────────────────────
 function ArchDiagram() {
@@ -265,9 +265,9 @@ function ViteBuildDiagram() {
 }
 
 // ─── Component ────────────────────────────────────────────────────────────────
-export default function TechStack() {
+export default function HowThisWebsiteWasDesigned() {
   return (
-    <section id="techstack" className="section section-alt">
+    <section id="howthiswebsitewasdesigned" className="section section-alt">
       <div className="container">
         <h2 className="section-title text-[1.75rem] font-semibold mb-4 flex items-center gap-3">
           <span className="font-mono text-accent text-[1rem] font-normal">05.</span> How This Website Was Designed
