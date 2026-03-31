@@ -23,7 +23,14 @@ export default function Experience() {
                 <div className="flex justify-between items-start mb-3.5 gap-4 flex-wrap">
                   <div>
                     <h3 className="text-[1.05rem] font-semibold mb-1">{job.role}</h3>
-                    <p className="text-accent text-[0.88rem] font-mono">{job.company}</p>
+                    <a
+                      href={job.companyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-accent text-[0.88rem] font-mono transition-opacity duration-200 hover:opacity-75"
+                    >
+                      {job.company}
+                    </a>
                   </div>
                   <span className="font-mono text-[0.78rem] text-text-muted whitespace-nowrap pt-1">{job.date}</span>
                 </div>

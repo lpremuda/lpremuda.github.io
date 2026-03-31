@@ -2,11 +2,12 @@ import type { Project } from '../types';
 
 export const projects: Project[] = [
   {
-    title: 'NestJS Kafka App',
+    title: 'lpremuda.github.io',
     description:
-      'A NestJS application demonstrating Kafka integration for event-driven microservice communication. Implements producers and consumers with TypeScript for type-safe message handling.',
-    tags: ['TypeScript', 'NestJS', 'Kafka'],
-    githubUrl: 'https://github.com/lpremuda/nestjs-kafka-app',
+      'This portfolio site. Built with React 19, TypeScript, and Vite. Styled with Tailwind CSS v4, animated with Framer Motion, and deployed to GitHub Pages via a two-environment GitHub Actions CI/CD pipeline with automatic staging and production deployments.',
+    tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'GitHub Actions'],
+    githubUrl: 'https://github.com/lpremuda/lpremuda.github.io',
+    liveUrl: 'https://lpremuda.github.io',
   },
   {
     title: 'React Firebase Auth App',

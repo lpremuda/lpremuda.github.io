@@ -3,6 +3,7 @@ import type { LucideIcon } from 'lucide-react';
 export interface Job {
   role: string;
   company: string;
+  companyUrl: string;
   date: string;
   description: string;
   tags: string[];
